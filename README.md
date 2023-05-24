@@ -57,10 +57,15 @@ First we need to create a sketch
 arduino-cli sketch new Mysketch
 ```
 Open the folder with vscode, and if you have installed the arduino extension you will see something like this : 
+<br>
 ![image](https://github.com/bigwhoman/mini-tutorials_Web_Server_ESP32/assets/79264715/0f88ca38-ffe3-4447-9076-0c7e3eaf92c9)
+<br>
 change the /dev/tty to /dev/ttyUSB 
+<br>
 ![image](https://github.com/bigwhoman/mini-tutorials_Web_Server_ESP32/assets/79264715/ae6a5801-9200-4a01-be66-6d9e0ac16c46)
+<br>
 Now select the device 
+<br>
 ![image](https://github.com/bigwhoman/mini-tutorials_Web_Server_ESP32/assets/79264715/ce2cd107-18c8-4599-8508-c2247cc510fb)
 <br>
 We have created a simple code to show the available networks in the area
@@ -83,15 +88,24 @@ We have created a simple code to show the available networks in the area
        delay(4998);
    }
 ```
-First check the code : 
+First check the code : <br>
 ![image](https://github.com/bigwhoman/mini-tutorials_Web_Server_ESP32/assets/79264715/0d7a2116-7f97-4b2b-892c-c9aca180aa9e)
+<br>
 ![image](https://github.com/bigwhoman/mini-tutorials_Web_Server_ESP32/assets/79264715/72384d35-3dad-40be-a1cb-8ba05b420ca4)
+<br>
 Now push the button Arduino Upload and simultaniously push the BOOT button on the esp32 
+<br>
 ![image](https://github.com/bigwhoman/mini-tutorials_Web_Server_ESP32/assets/79264715/72b4f0b4-282b-44fa-9b54-d7fe520fec69)
+<br>
 https://lastminuteengineers.b-cdn.net/wp-content/uploads/iot/ESP32-ADC-Pins.png
+<br>
 ![image](https://github.com/bigwhoman/mini-tutorials_Web_Server_ESP32/assets/79264715/17be034d-8841-40a9-89b3-d69a35a0a9a7)
+<br>
 After that go to the serial monitor and then change the baudrate to 115200
+<br>
 ![image](https://github.com/bigwhoman/mini-tutorials_Web_Server_ESP32/assets/79264715/33402fcc-3d66-4d4a-a818-bb18818e222d)
+<br>
 Now when you start the monitoring you should see the available wifis.
+<br>
 ![image](https://github.com/bigwhoman/mini-tutorials_Web_Server_ESP32/assets/79264715/2c0ee0f8-b7f6-465d-b841-c06670f84fea)
 
