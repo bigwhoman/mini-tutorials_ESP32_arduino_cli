@@ -1,7 +1,7 @@
 # mini-tutorials_Web_Server_ESP32
 Today we are going to run a webserver on ESP32 module. <br>
 The setup is on Ubuntu 22.04.
-### Installing requirements 
+## Installing requirements 
 First, we need to install arduino IDE 
 ```shell
    curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
@@ -105,4 +105,8 @@ After that go to the serial monitor and then change the baudrate to 115200
 Now when you start the monitoring you should see the available wifis.
 <br>
 ![image](https://github.com/bigwhoman/mini-tutorials_Web_Server_ESP32/assets/79264715/2c0ee0f8-b7f6-465d-b841-c06670f84fea)
+## Uploading files on esp32
+In this step we are going to upload files on esp32 filesystem.<br>
+To do this we first need to install some requirements.<br>
+By default, the arduino-cli doens't let you install libraries from zip or git we are going to allow that.<br>
 
