@@ -15,10 +15,7 @@ Change the setting to use the arduino-cli.
 Now add the library to board manager :
 ```shell
    board_manager:
-     additional_urls:sudo modprobe cp210x
-sudo modprobe usbserial
-ls -al /lib/modules/(uname -r)/kernel/drivers/usb/serial/cp210x.ko
-ls -al /lib/modules/(uname -r)/kernel/drivers/usb/serial/usbserial.ko
+     additional_urls:
        - https://dl.espressif.com/dl/package_esp32_index.json
 ```
 after that update the arduino core and install esp32 package
